@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical"
+    tools:context=".ChooseActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="Select One MRT Line To Start"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnEast_west"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="East-West Line"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnSouth"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="North-South Line"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnNorth_east"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_purple"
+        android:layout_marginBottom="20dp"
+        android:text="North East Line"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnCircle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Circle Line"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnDowntown"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Downtown Line"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:text="How To Play"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="391dp"
+            android:text="1) Click 'Start' button to next page.\n\n2) Choose one MRT Line to start the quiz.\n\n3) It will show random question for the MRT Line you had chosen.\n\n4) It have 5 questions, you can select the correct answer.\n\n5) When you done 5 questions, it will show the result."
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="350dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_red_dark"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
